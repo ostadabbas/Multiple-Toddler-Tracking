@@ -1,0 +1,10 @@
+# Configuration 2: Medium Confidence, More Lenient Distances
+DEEPSORT:
+  REID_CKPT: "deep_sort_pytorch/deep_sort/deep/checkpoint/ckpt.t7"
+  MAX_DIST: 0.4  # Higher distance threshold
+  MIN_CONFIDENCE: 0.5  # Medium confidence threshold
+  NMS_MAX_OVERLAP: 0.5
+  MAX_IOU_DISTANCE: 0.7
+  MAX_AGE: 80
+  N_INIT: 5
+  NN_BUDGET: 120

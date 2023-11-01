@@ -1,0 +1,10 @@
+# Configuration 3: Medium Confidence, Strict Overlapping and IOU
+DEEPSORT:
+  REID_CKPT: "deep_sort_pytorch/deep_sort/deep/checkpoint/ckpt.t7"
+  MAX_DIST: 0.3
+  MIN_CONFIDENCE: 0.5  # Medium confidence threshold
+  NMS_MAX_OVERLAP: 0.3  # Strict overlapping
+  MAX_IOU_DISTANCE: 0.3  # Strict IOU
+  MAX_AGE: 90
+  N_INIT: 7
+  NN_BUDGET: 140

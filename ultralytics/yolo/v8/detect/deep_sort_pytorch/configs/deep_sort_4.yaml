@@ -1,0 +1,10 @@
+# Configuration 4: High Confidence, Lenient Overlapping and IOU
+DEEPSORT:
+  REID_CKPT: "deep_sort_pytorch/deep_sort/deep/checkpoint/ckpt.t7"
+  MAX_DIST: 0.3
+  MIN_CONFIDENCE: 0.7  # High confidence threshold
+  NMS_MAX_OVERLAP: 0.7  # Lenient overlapping
+  MAX_IOU_DISTANCE: 0.7  # Lenient IOU
+  MAX_AGE: 100
+  N_INIT: 9
+  NN_BUDGET: 160
