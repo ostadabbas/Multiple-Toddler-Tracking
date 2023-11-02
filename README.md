@@ -1,7 +1,7 @@
 # MTTSort: Enhanced DeepSort for Toddler Tracking
 
 <p align="center">
-    <img src="figures/MTTSort_logo.png" alt="MTTSort Logo" width="200"/>
+    <img src="figures/MTTSort_logo.png" alt="MTTSort Logo" width="200" height='200'/>
 </p>
 
 MTTSort is an enhanced version of the DeepSort algorithm, specifically tailored for tracking toddlers in various environments. By leveraging advanced deep learning techniques, MTTSort provides accurate and real-time tracking, making it an ideal solution for monitoring and ensuring the safety of toddlers.
