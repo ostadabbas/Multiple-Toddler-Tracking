@@ -86,7 +86,7 @@ The data used for evaluation should be in such format
 Here's a demonstration of the MTTSort algorithm in action:
 
 <p align="center">
-    <img src="figures/MTT_demo.gif" alt="MTTSort Demo"/>
+    <img src="figures/MTTSort_demo.gif" alt="MTTSort Demo"/>
 </p>
 ### Support and Contributions
 
