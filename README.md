@@ -12,6 +12,7 @@ MTTSort is an enhanced version of the DeepSort algorithm, specifically tailored 
 - Advanced deep learning techniques for improved performance.
 - Customizable tracking parameters for different environments.
 - Integration with YOLOv8 for robust object detection.
+- Genetic Algorithm Evolution for fine-grained hyper-parameters tuning.
 
 ## Getting Started
 
@@ -60,10 +61,33 @@ To use MTTSort for toddler tracking, follow these steps:
     python evolve.py
     ```
 
+3. Run the detection model with HOTA and MOTA and IDF1 scores calculation:
+
+    ```bash
+    python predict_evaluate.py
+    ```
+
+4. Run only model for detections and tracks:
+
+    ```bash
+    python predict_frames.py
+    ```
+
+### Evaluation
+
+The data used for evaluation should be in such format 
+```bash
+    frame_id, Subject_ID, x_top, y_top, x_bottom, y_bottom
+```
+
 ### Results
 
-Your results and figures can be added here.
 
+Here's a demonstration of the MTTSort algorithm in action:
+
+<p align="center">
+    <img src="figures/MTT_demo.gif" alt="MTTSort Demo"/>
+</p>
 ### Support and Contributions
 
 For support, questions, or contributions, please open an issue or submit a pull request in the repository.
