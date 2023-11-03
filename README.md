@@ -73,6 +73,16 @@ To use MTTSort for toddler tracking, follow these steps:
     python predict_frames.py
     ```
 
+### Data Preperation
+
+For annotation and labeling of images used in testing the MTTSort model, [LabelMe](https://github.com/wkentaro/labelme) was utilized. LabelMe is an open-source graphical image annotation tool written in Python.
+
+After preparing the JSON files from Labelme run the json_to_text.py script to transform the labels to the desired format. 
+
+    ```bash
+    python json_to_text.py
+    ```
+
 ### Evaluation
 
 The data used for evaluation should be in such format 
