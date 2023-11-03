@@ -79,6 +79,8 @@ For annotation and labeling of images used in testing the MTTSort model, [LabelM
 
 After preparing the JSON files from Labelme run the json_to_text.py script to transform the labels to the desired format. 
 
+1. Run to transform the json labels to text:
+
     ```bash
     python json_to_text.py
     ```
