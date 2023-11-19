@@ -1,3 +1,5 @@
+This is the official repository for our paper, "Multiple Toddler Tracking in Indoor Videos" accpted for publication in CV4Smalls Workshop at WACV 2024.
+
 # MTTSort: Enhanced DeepSort for Toddler Tracking
 
 <p align="center">
@@ -103,6 +105,19 @@ Here's a demonstration of the MTTSort algorithm in action:
 ### Support and Contributions
 
 For support, questions, or contributions, please open an issue or submit a pull request in the repository.
+
+## Citation
+
+If you find use this code or dataset for your research, please consider citing our paper:
+```
+@inproceedings{Amraee2024toddlertracking,
+  title={Multiple Toddler Tracking in Indoor Videos},
+  author={Amraee, Somaieh and Galoaa, Bishoy  and Goodwin, Matthew  and  Hatamimajoumerd,  Elaheh  and Ostadabbas, Sarah},
+  booktitle={IEEE/CVF Winter Conference on Applications of Computer Vision Workshops (WACVW)},
+  month={1},
+  year={2024}
+  }
+```
 
 ### License
 
